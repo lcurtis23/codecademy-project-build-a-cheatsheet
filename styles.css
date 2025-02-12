@@ -2,6 +2,9 @@ html {
   font-size: 16px;
   font-family: Tahoma, san-serif;
 }
+table {
+  margin: 0 auto;
+}
 span {
   background-color: lightgray;
   font-size: 1.2rem;
