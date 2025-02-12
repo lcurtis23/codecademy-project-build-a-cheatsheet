@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Combinators</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>CSS Combinator</th>
+            <th>Selector Name</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="code">[Element1] <span>&gt;</span> [Element2]</td>
+            <td>Child Combinator</td>
+            <td>Selects the elements that are direct children of Element 1</td>
+          </tr>
+          <tr>
+            <td class="code">[Element1] <span>+</span> [Element2]</td>
+            <td>Next Sibling Combinator</td>
+            <td>Selects element 2 that come right after elemement 1</td>
+          </tr>
+          <tr>
+            <td class="code">[Element1]<span>" "</span>[Element2]</td>
+            <td>Descendant Selector</td>
+            <td>A space between two selectors. Selects all descendants of element 1 that match element 2</td>
+          </tr>
+          <tr>
+            <td class="code">[Element1] <span>~</span> [Element2]</td>
+            <td>Subsequent-sibling combinator</td>
+            <td>Selects all siblings of element 1 that match element 2</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
